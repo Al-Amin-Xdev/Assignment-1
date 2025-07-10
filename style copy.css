@@ -1,0 +1,72 @@
+
+.inter-logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+  color:rgb(78, 71, 255);
+  font-size: xx-large;
+}
+
+
+.inter-raleway {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+body {
+    max-width: 1140px;
+    margin:0px auto;
+}
+.header {
+    height: 600px;
+    background-image:url(Hero-bg.png)
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul .menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.menu li {
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color:  rgb(78, 71, 255);
+
+}
+.second-container {
+    text-align: center;
+    margin-top: 158px;
+    margin-bottom: 152px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.second-container h1 {
+    font-size: 60px;
+}
+button {
+    background-color: rgb(78, 71, 255);
+    border: 0px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
