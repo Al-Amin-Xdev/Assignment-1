@@ -12,6 +12,7 @@
 .inter-raleway {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  font-weight: bold;
 
 }
 
@@ -75,7 +76,7 @@ button {
     height: 300px;
     max-width: 950px;
     margin: auto;
-    background-color: rgba(0, 255, 255, 0.696);
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
     border-radius: 10px;
     margin-top: 100px;
     
@@ -103,7 +104,7 @@ button {
 
 /* User joining info section */
 .user {
-     background-image:linear-gradient(to right, rgba(171, 86, 223, 0.484), rgb(212, 185, 86));
+      background: linear-gradient(to right, #fdc830, #f37335);
     max-width: 950px;
     margin: auto;
     margin-top: 100px;
@@ -165,7 +166,7 @@ button {
 /* User Opinion section */
 
 .user-opinion {
-    background-color: rgba(159, 23, 183, 0.623);
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
      max-width: 950px;
      height: 430px;
     margin: auto;
@@ -312,4 +313,92 @@ button {
    padding-left: 0px;
    font-weight: bolder;
 }
+ /* Focus section */
 
+ .focus {
+    margin-top: 150px;
+    max-width: 950px;
+     background: linear-gradient(to right, #544a7d, #ffd452);
+    margin: auto;
+    border-radius: 30px;
+ }
+.focus-text h1 {
+    text-align: center;
+    font-size:50px ;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.focus-text p {
+    text-align: center;
+    font-size:20px ;
+    margin: 0px;
+}
+.focus-button {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.focus-photo {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.focus-photo img {
+    border-radius: 30px;
+}
+
+/* Text and form section  */
+
+.text-form {
+    display: flex;
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    max-width: 900px;
+    margin: auto;
+    margin-top: 150px;
+    height: 540px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.column1 {
+    width: 50%;
+
+}
+.column1 h1 {
+    font-size: 97px;
+    font-weight: bolder;
+    color: white;
+}
+
+.form {
+    width: 50%;
+    height: 100%;
+}
+.form legend {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top:20px;
+}
+input[type="text"] {
+  width: 300px;    
+  height: 40px;    
+  font-size: 16px; 
+  padding: 8px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+}
